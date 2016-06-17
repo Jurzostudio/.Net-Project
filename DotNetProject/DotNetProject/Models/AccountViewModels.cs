@@ -17,7 +17,7 @@ namespace DotNetProject.Models
 
     public class SendCodeViewModel
     {
-        public string SelectedProvider { get; set; }
+        public string SelectedProvider { get;  }
         public ICollection<System.Web.Mvc.SelectListItem> Providers { get; set; }
         public string ReturnUrl { get; set; }
         public bool RememberMe { get; set; }
