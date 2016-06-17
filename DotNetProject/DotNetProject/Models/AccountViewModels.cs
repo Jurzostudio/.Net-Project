@@ -12,7 +12,7 @@ namespace DotNetProject.Models
 
     public class ExternalLoginListViewModel
     {
-        public string ReturnUrl { get; set; }
+        public string ReturnUrl { get; }
     }
 
     public class SendCodeViewModel
